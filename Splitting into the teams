@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a= sc.nextInt();
+        int b=sc.nextInt();
+        
+        int teamsize= a/b;
+        int leftout=a%b;
+        System.out.print("The number of friends in each team is "+teamsize+" and left out is "+leftout);
+        
+        
+       
+    }
+}
