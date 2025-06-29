@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        float p=sc.nextInt();
+        float r=sc.nextInt();
+        float t=sc.nextInt();
+        float d=(p * r * t) / 100;
+        float total= p+d;
+        float discount = ((2*d)/100);
+        float finalamount=total-discount;
+        System.out.println(String.format("%.2f",d));
+        System.out.println(String.format("%.2f",total));
+        System.out.println(String.format("%.2f",discount));
+        System.out.println(String.format("%.2f",finalamount));
+
+        
+    }
+}
